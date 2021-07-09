@@ -17,7 +17,7 @@ export default function about() {
              I have a background in manufacturing quality assurance,
             with a variety of skills.</p>
           
-            <div><a href="#portfolio">Please Visit My Portfolio for Work Samples</a></div>
+            <div className="portLink"><a href="#portfolio">Visit My Portfolio for Work Samples</a></div>
           </div>
       </div>
     </div>
