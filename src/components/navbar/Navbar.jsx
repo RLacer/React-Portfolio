@@ -12,8 +12,20 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <span>720 217 7983</span>
           </div>
           <div className="itemContainer">
+          <a class="mail" href="mailto:r.a.lacer@hotmail.com">
             <Mail className="icon" />
-            <span>r.a.lacer@hotmail.com</span>
+          
+           </a>
+          </div>
+          <div>
+          <a class="itemContainer"
+                href="https://www.linkedin.com/in/rebecca-lacer/"
+                target="_blank">Linkedin</a>
+          </div>
+          <div>
+          <a class="itemContainer"
+                href="https://github.com/RLacer"
+                target="_blank">github</a>
           </div>
         </div>
 

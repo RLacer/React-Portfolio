@@ -3,8 +3,9 @@ import "./portfolio.scss";
 export default function portfolio() {
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Work Samples</h1>
-      <div className="wrapper">
+       <div className="container">
+   
+     
         <div className="itemContainer">
           <div className="item">
               <a href="https://rlacer.github.io/Git-Music-Now-Project/" target="_blank">
@@ -40,17 +41,35 @@ export default function portfolio() {
           </div>
         </div>
         <div className="itemContainer">
-          <div className="item">
-            <img src="" alt="" />
-            <h3>Item4</h3>
+        <div className="item">
+          <a href="https://rlacer.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank">
+            <img src="assets/images/weather.png" alt="project pic" />
+            <h3>Weather Dashboard</h3>
+            </a>
+            <a href="https://github.com/RLacer/06-Server-Side-APIs-Weather-Dashboard" target="_blank">
+              <h3>Link to Repository</h3>
+            </a>
           </div>
           <div className="item">
-            <img src="" alt="" />
-            <h3>Item5</h3>
+          <a href="https://rlacer.github.io/05-Third-Party-APIs-Work-Day-Scheduler/" target="_blank">
+            <img src="assets/images/dayplanner.png" alt="project pic" />
+            <h3>Work Day Planner</h3>
+            </a>
+            <a href="https://github.com/RLacer/05-Third-Party-APIs-Work-Day-Scheduler" target="_blank">
+      
+              <h3>Link to Repository</h3>
+            </a>
           </div>
           <div className="item">
-            <img src="" alt="" />
-            <h3>Item6</h3>
+          <a href="https://rlacer.github.io/04-Web-API-CODE-QUIZ/" target="_blank">
+            <img src="assets/images/coding.png" alt="project pic" />
+            <h3>Take a Coding Quiz</h3>
+            </a>
+            <a href="https://github.com/RLacer/04-Web-API-CODE-QUIZ" target="_blank">
+      
+              <h3>Link to Repository</h3>
+            </a>
+          
           </div>
         </div>
       </div>

@@ -1,18 +1,18 @@
 @import "../../global.scss";
+
 .portfolio {
   background-color: lightsteelblue;
   color: $mainColor;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   align-items: center;
-h1{
-    margin-top:  50px;
-    margin-bottom: 50px;
-    font-size: 50px;
-}
+
+
 .itemContainer{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: space-between;
 

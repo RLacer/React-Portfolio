@@ -12,7 +12,7 @@ export default function about() {
           <div className="wrapper">
               <h1>Welcome!</h1>
               <h2>I'm Rebecca Lacer</h2>
-              <p>As an aspiring web developer
+              <p>As an aspiring web developer,
               I enjoy developing my skills in full stack web dev.
              I have a background in manufacturing quality assurance,
             with a variety of skills.</p>
