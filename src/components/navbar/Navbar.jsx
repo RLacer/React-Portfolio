@@ -19,12 +19,12 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           </div>
           <div>
           <a class="itemContainer"
-                href="https://www.linkedin.com/in/rebecca-lacer/"
-                target="_blank">Linkedin</a>
+                href="https://www.linkedin.com/in/rebecca-lacer/"rel="noreferrer" target="_blank"
+               >Linkedin</a>
           </div>
           <div>
           <a class="itemContainer"
-                href="https://github.com/RLacer"
+                href="https://github.com/RLacer"rel="noreferrer"
                 target="_blank">github</a>
           </div>
         </div>
