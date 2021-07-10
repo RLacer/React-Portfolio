@@ -14,7 +14,7 @@ export default function Menu({ menuOpen, setMenuOpen}) {
           <a href="#contact">Contact</a>
         </li>
        <li onClick={()=>setMenuOpen(false)}>
-          <a href="assets/resume/resume.pdf" download target="_blank">Resume</a>
+          <a href="assets/resume/resume.pdf" download target="_blank">Resume(pdf)</a>
         </li>
       </ul>
     </div>
